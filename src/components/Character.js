@@ -15,6 +15,10 @@ border-color:black;
 width:90%;
 margin-left:5%;
 margin-top:5%;
+&:hover{
+    background-color:purple;
+    color:greenyellow;
+}
 `
 
 const NameBox = styled.div`
@@ -23,12 +27,20 @@ font-family:'Calibri';
 font-size:30px;
 color:yellow;
 width:35%;
+&:hover{
+    background-color:purple;
+    color:greenyellow;
+}
 `
 
 const Stats = styled.div`
 background-color: cornsilk;
 display:flex;
 flex-direction:row;
+&:hover{
+    background-color:purple;
+    color:greenyellow;
+}
 
 `
 
