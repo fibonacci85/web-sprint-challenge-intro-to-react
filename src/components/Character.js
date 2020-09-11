@@ -14,10 +14,13 @@ border-width:3px;
 border-color:black;
 width:90%;
 margin-left:5%;
+margin-top:5%;
 `
 
 const NameBox = styled.div`
 background-color:black;
+font-family:'Calibri';
+font-size:30px;
 color:yellow;
 width:35%;
 `
